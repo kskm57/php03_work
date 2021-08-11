@@ -2,13 +2,22 @@
 
 $name = "shota";
 
-if($name = "shota"){
-    echo "私は あなたの名前 です";
-}
-else {
-    echo "あなたの名前ではありません";
+if ($name == "shota"){
+    echo "私は 河田将太 です";
+} else {
+    echo "河田将太ではありません";
 }
 
+echo "\n";
+
+$name1 = "あ";
+
+if($name1 == "shota"){
+    echo "私は 河田将太 です";
+}
+else {
+    echo "河田将太ではありません";
+}
 echo "\n";
 
 $total = 0;
